@@ -1,3 +1,10 @@
+---
+categories: 
+- 第三方配置
+tags:
+- Facebook配置
+---
+
 ### 1.添加依赖
 在对应 Module 的 __build.gradle__ 文件下添加以下代码：
 ```
