@@ -21,7 +21,7 @@ cat ~/.ssh/coding_id_rsa.pub
 ```
 
 
-![image](https://github.com/tao111222333444/image/blob/master/GIT_SSH.png)
+![image](https://github.com/tao111222333444/image/blob/master/GIT_SSH.png?raw=true)
 
 2.然后就可以把查看的公钥添加到对应的git仓库中了。
 
@@ -32,7 +32,7 @@ ssh -T git@xxxx.xxx
 ```
 首次连接时需要确认并添加主机到本机SSH可信列表。若返回通过认证，则证明添加成功。如下图
 
-![](https://github.com/tao111222333444/image/blob/master/GIT_SSH_1.png)
+![](https://github.com/tao111222333444/image/blob/master/GIT_SSH_1.png?raw=true)
 
 这就完成了Git SSH的配置了
 
