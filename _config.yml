@@ -4,16 +4,19 @@
 
 # Site
 title: Hugo
-subtitle: ''
-description: ''
+subtitle: '一个沉淀知识的地方！'
+description: '博学而笃志,切问而近思。'
 keywords:
 author: Hugo
-language: zh-CN
+language: 
+- zh-CN
+- en
+
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://www.tohugo.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

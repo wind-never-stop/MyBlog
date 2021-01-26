@@ -9,7 +9,7 @@ tags:
 ---
 可以使用
 
-```
+``` Kotlin
 mAdapter.notifyItemChanged(index,1) 
 ```
 
@@ -18,7 +18,7 @@ mAdapter.notifyItemChanged(index,1)
 <!--more-->
 
 在 Adapter 中复写  
-```
+```Kotlin
 onBindViewHolder(
         holder: BaseViewHolder,
         position: Int,
@@ -27,7 +27,7 @@ onBindViewHolder(
 ```
 
 该方法如下：
-```
+```Kotlin
     override fun onBindViewHolder(
         holder: BaseViewHolder,
         position: Int,
@@ -45,13 +45,13 @@ payloads就是我们在刷新 该item是传入的第二个参数
 
 
 在某些情况下recycerView刷新会有闪烁的情况  我们只需要禁止recycleView的动画就好了 如下：
-```
+```Kotlin
  (swipeRecyclerView?.getItemAnimator() as DefaultItemAnimator).setSupportsChangeAnimations(false)
 ```
 
 还有一种是设置动画播放时间为0；
 如下：
-```
+```Kotlin
 swipeRecyclerView?.getItemAnimator()?.setChangeDuration(0);// 通过设置动画执行时间为0来解决闪烁问题
 ```
 不过不推荐使用这种方法，因为在某些情况刷新的item下一个item会晃动一下。
