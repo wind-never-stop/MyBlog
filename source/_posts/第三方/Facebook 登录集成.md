@@ -1,5 +1,5 @@
 ---
-title:Facebook 登录集成
+title: Facebook 登录集成
 categories: 
 - 第三方配置
 tags:
@@ -19,6 +19,7 @@ tags:
 <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
 
 ```
+<!--more-->
 2.在 __AndroidManifest.xml__ 清单文件中添加以下配置：
 
 ```

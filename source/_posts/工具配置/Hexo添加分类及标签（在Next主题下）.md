@@ -3,7 +3,7 @@ title: Hexo添加分类及标签（在Next主题下）
 categories:  Hexo
 tags:
 - Hexo
-
+description: 自建的博客怎么能没有分类和标签呢，所以我就去查了一下怎么去配置分类和标签。
 ---
 
 ## 前言
@@ -151,3 +151,6 @@ tags:
 这样我们就完成了分类和标签的配置，可以看出分类和标签的配置流程基本一样。
 
 关于Next的更多配置请查看官方文档 https://theme-next.iissnan.com/theme-settings.html
+
+## 四.延伸
+在上面我们配置对文件最上方以 `---`分割对区域，是用来指定个别文件的配置变量区域，名称为 **<font color= blue>Front-matter</font>**

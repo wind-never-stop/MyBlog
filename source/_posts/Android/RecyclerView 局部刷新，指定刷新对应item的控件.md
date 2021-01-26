@@ -9,20 +9,24 @@ tags:
 ---
 可以使用
 
-```mAdapter.notifyItemChanged(index,1)   ``` 
+```
+mAdapter.notifyItemChanged(index,1) 
+```
 
 第一个参数 index 是刷新哪个item <br> 第二个参数是哪个item里的哪些控件需要刷新的判断值需要我们自己处理，或者不传刷新整个item；
 
+<!--more-->
+
 在 Adapter 中复写  
-``` 
+```
 onBindViewHolder(
         holder: BaseViewHolder,
         position: Int,
         payloads: MutableList<Any>
     ) 
 ```
-该方法
-如下：
+
+该方法如下：
 ```
     override fun onBindViewHolder(
         holder: BaseViewHolder,
