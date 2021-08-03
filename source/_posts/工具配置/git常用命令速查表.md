@@ -6,4 +6,4 @@ tags:
 - git
 ---
 
-![image](_resources/git_order.webp)
+![image](source/_posts/工具配置/_resources/git_order.webp)
