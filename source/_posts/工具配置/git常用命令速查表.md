@@ -1,5 +1,5 @@
 ---
-title: Git SSH生成和配置
+title: git常用命令速查表
 categories: 
 - 工具配置
 tags:
